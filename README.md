@@ -30,6 +30,7 @@ This dashboard simulates a business intelligence tool for analyzing customer beh
 - Plotly Express
 
 
+## 👤 Author
 
 **Naresh Kumar**  
 Data Analyst | BI Enthusiast  
@@ -37,7 +38,6 @@ Data Analyst | BI Enthusiast
 📞 +91 80729 25243  
 🔗 [LinkedIn](https://www.linkedin.com/in/naresh-kumar-b67b0b326)  
 🔗 [GitHub](https://github.com/nareshkumarv0910-wq)
-## 👤 Author
 
 ---
 
