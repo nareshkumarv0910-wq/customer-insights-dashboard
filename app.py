@@ -40,7 +40,6 @@ st.plotly_chart(fig1)
 fig2 = px.pie(...)
 st.plotly_chart(fig2)
 
-... (repeat for all 5 charts)
 
 import streamlit as st
 import pandas as pd
