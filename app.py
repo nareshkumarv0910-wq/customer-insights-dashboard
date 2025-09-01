@@ -10,6 +10,23 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80
+st.markdown("""
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .stApp {
+            background-color: rgba(12, 12, 20, 0.85);
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 
 st.markdown("## 📊 Customer Insights Dashboard")
 
