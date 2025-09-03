@@ -36,11 +36,6 @@ st.markdown("""
             padding: 10px;
         }
     </style>
-    body, .stApp {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
 """, unsafe_allow_html=True)
 
 # ------------------ HEADER ------------------
