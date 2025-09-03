@@ -11,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ------------------ BACKGROUND IMAGE ------------------
+# ------------------ BACKGROUND IMAGE (Clean & Light) ------------------
 st.markdown("""
     <style>
         body {
@@ -23,9 +23,24 @@ st.markdown("""
         }
 
         .stApp {
-            background-color: rgba(12, 12, 20, 0.85);
+            background-color: rgba(255, 255, 255, 0.85); /* Light overlay for readability */
+        }
+
+        h1, h2, h3, h4, h5, h6, p, div {
+            color: #111 !important; /* Dark text for contrast */
+        }
+
+        .stMetric {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            padding: 10px;
         }
     </style>
+    body, .stApp {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
 """, unsafe_allow_html=True)
 
 # ------------------ HEADER ------------------
